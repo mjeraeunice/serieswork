@@ -34,6 +34,12 @@ nav ul li{
     margin-left: 430px;
     margin-top: -28px;
 }
+#search{
+    text-align: center;
+}
+.iconsearch{
+    
+}
 #icons{
     margin-left: 800px;
     margin-top: -16px;
@@ -78,32 +84,32 @@ margin-left: 980px;
 height: 40vh;
 }
 #starfighter{
-    margin-top: -215px;
+    margin-top: -15%;
 }
 #Turok img{
 width: 200px;
-margin-left: 400px;
+margin-left: 367px;
 height: 45vh;
 }
 #Turok{
-    margin-top: -280px;
+    margin-top: -27%;
 }
 
 #Payakan img{
 width: 200px;
-height:  40vh;
+height:  35vh;
 margin-left: 680px
 }
 #Payakan{
-    margin-top: -270px;
+    margin-top: -24%;
 }
 #Gandalf img{
   width: 200px;
   margin-left: 990px;
-  height: 40vh;
+  height: 35vh;
 }
 #Gandalf{
-    margin-top: -260px;
+    margin-top: -22%;
 }
 #Picc img{
     width: 200px;
@@ -251,13 +257,13 @@ margin-top: -170px;
 .last{
     background-color:darkblue;
 }
-.sideform{
+.Form{
     float: right;
     margin-top: -390px;
     margin-right: 120px;
     background-color: whitesmoke;
     width: 290px;
-    padding: 0%;
+    padding: 5%;
     height: 50vh;
 }
 #select{
@@ -265,19 +271,74 @@ margin-top: -170px;
     padding: 8px 25px;
 }
 #Note{
-    background-color: yellow;
+    background-color:#ffd600;
     height: 10vh;
 }
 #email{
     margin-left: 320px;
 }
 #discount{
-margin-top: 30px;
+margin-bottom: -2px;
 
 }
 #footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(31, 31, 240);
+    background-color: #26004c;
     margin-top: -20px;
+    padding: 40px 40px;
+}
+.intro{
+position: relative;
+display: inline-block;
+}
+.text{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 180px;
+    transform: translate(-50%,-50%);
+    font-size: 1.2rem;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+}
+#fonts img{
+    width: 70px;
+    margin-left: 20px;
+}
+#fonts{
+margin-top: -70px;
+}
+#button1{
+    background-color: yellow;
+    padding: 3px 5px;
+}
+.tie{
+    margin-left: 320px;
+    text-align: justify;
+}
+.dago{
+    margin-top: -45px;
+    text-align: justify;
+}
+.at{
+    margin-left: 700px;
+    text-align: justify;
+}
+.star{
+    margin-left: 970px;
+    margin-top: -25px;
+    text-align: justify;
+}
+.gandalf{
+margin-left: -50%;
+}
+.payakan{
+
+}
+.turok{
+
+}
+.clone{
+
 }
