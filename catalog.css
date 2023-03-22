@@ -1,0 +1,722 @@
+/* @media (max-width: 530px) {
+    body {
+      background-color:aqua;
+    }
+  } */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 9px 35px;
+    color:#252525;
+}
+.flag img{
+   width: 22px;
+   height: 4vh;
+   margin-left: 84%;
+}
+.flag{
+margin-top: -27px;
+}
+.logo img{
+    width: 110px;
+    margin-left: 27px;
+    height: 12vh;
+}
+.Intro{
+    display: flex;
+}
+.catalogue{
+    
+    margin-left:48px;
+    margin-top: 33px;
+}
+.search{
+    margin-left: 40px;
+    margin-top: 33px ;
+}
+#brickh{
+font-size: 25px;
+margin-top: 30px;
+}
+.icons{
+margin-left: 480px;
+margin-top: 35px;
+}
+.Intro{
+background-color: #ffd600;
+height: 12vh;
+}
+.star img{
+    width: 180px;
+    margin-left: 510px;
+    margin-top: px;
+    height: 133px;
+}
+.star{
+    background-color: #252525;
+    height: 20vh;
+    margin-top: -55px;
+    
+}
+.series{
+ margin-left: 20px;
+ border-style:solid;
+width: 220px;
+border-radius: 10px 10px;
+border-color: whitesmoke;
+height: 78vh;
+
+} 
+.container{
+    width: 100%;
+}
+.Pictures1{
+    display: flex;
+    margin-top: -450px;
+    margin-left:250px;
+}
+#d1,#d2,#d3{
+    width: 180px;
+}
+#d1 img{
+    margin-left: 50px;
+}
+#d2{
+    height: 20vh;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+#d3{
+    margin-left: 180px;
+    margin-top:-20px ;
+    height: 29vh;
+}
+.words1{
+/* display: flex; */
+margin-left: 200px;
+}
+.dago{
+    margin-left:60px;
+    margin-top: -35px;
+}
+.at{
+    margin-left: 400px;
+    margin-top: -50px;
+}
+.bomb{
+    margin-left: 757px;
+    margin-top: -45px;
+}
+.stur1{
+    margin-left: 258px;
+    margin-top: 25px;
+    color: #ffd600;
+    font-size: 8px;
+}
+.stir1{
+    margin-left: 600px;
+    margin-top: -24px;
+    color: #ffd600;
+    font-size: 8px;
+}
+.steric1{
+    margin-left: 957px;
+    margin-top: -19px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.pictures2{
+display: flex;
+margin-top: 50px;
+margin-left:250px;
+}
+#pic1,#pic2,#pic3{
+    width: 178px;
+    height: 25vh;
+}
+#pic1{
+   margin-left: 17px; 
+}
+#pic2{
+    margin-left: 150px;
+}
+#pic3{
+    margin-left:180px ;
+}
+.republic{
+    margin-left: 260px;
+}
+.A1{
+    margin-left: 630px;
+    margin-top: -35px;
+}
+.razor{
+    margin-left: 970px;
+    margin-top: -35px;
+}
+.stur2{
+    margin-left: 259px;
+    margin-top: -20px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.stir2{
+    margin-left: 630px;
+    margin-top: -8px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.steric2{
+    margin-left: 970px;
+    margin-top: -8px;
+    font-size: 8px;
+    color: #ffd600;
+}
+#e1,#e2,#e3{
+    width: 180px;
+    height: 28vh;
+}
+#e1{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+#e2{
+    margin-left: 180px;
+    margin-top: 30px;
+    height: 25vh;
+}
+#e3{
+    margin-left: 176px;
+    margin-top:-55px;
+    height: 22vh;
+}
+.manda{
+    margin-left: 248px;
+    margin-top: -12px;
+}
+.port{
+    margin-left: 615px;
+    margin-top: -20px;
+}
+.obi{
+    margin-left: 975px;
+    margin-top: -30px;
+}
+.stur3{
+    margin-left: 248px;
+    margin-top: -40px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.stir3{
+    margin-left: 613px;
+    margin-top: 6px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.steric3{
+    margin-left: 975px;
+    font-size: 8px;
+    color: #ffd600;
+}
+#m1,#m2,#m3{
+    width: 170px;
+    height: 27vh;
+}
+#m1{
+    margin-left: 250px;
+    margin-top: 8px;
+}
+#m2{
+    margin-left: 180px;
+}
+#m3{
+    margin-left: 195px;
+}
+.hoth{
+    margin-left: 250px;
+    margin-top: 3px;
+}
+.boba{
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.ferr{
+    margin-left: 976px;
+    margin-top: -32px;
+}
+.stur4{
+    margin-left: 250px;
+    margin-top: -10px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.stir4{
+    margin-left: 599px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.steric4{
+    margin-left: 975px;
+    margin-top: -10px;
+    font-size: 8px;
+    color: #ffd600;
+}
+#c1,#c2,#c3{
+    width: 178px;
+    height: 28vh;
+}
+#c1{
+    margin-left: 250px;
+    margin-top: -15px;
+}
+#c2{
+    margin-left: 170px;
+    margin-top: -10px;
+}
+#c3{
+    margin-left: 190px;
+}
+.just{
+    margin-left: 250px;
+}
+.clone{
+margin-left: 600px;
+margin-top: -39px;
+}
+.fett{
+    margin-left: 978px;
+    margin-top: -32px;
+}
+.stur5{
+    margin-left: 248px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.stir5{
+    margin-left: 598px;
+    margin-top: -13px;
+    color: #ffd600;
+    font-size: 8px;
+}
+.steric5{
+    margin-left: 978px;
+    margin-top: -6px;
+    font-size: 8px;
+    color: #ffd600;
+}
+.nav1{
+    margin-left: 540px;
+}
+#bt1,#bt2,#bt3,#bt4,#bt5,#bt6{
+  background-color: white; 
+  color: #252525; 
+  border-radius: 30px 30px;
+  padding: 10px 18px;
+  justify-content: space-around;
+  border-color: white;
+}
+#bt1{
+    background-color: #ffd600;
+}
+#dots{
+    color: #ffd600;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    background-color: #26004c;
+    padding: 40px 40px;
+    height: 30vh;
+}
+#Company{
+    font-size: 16px;
+}
+#Help{
+    margin-left:120px;
+    font-size: 16px;
+}
+#Contacts{
+    margin-left: 100px;
+    font-size: 16px;
+}
+#Works{
+    margin-top:90px;
+    margin-left: -160px;
+    margin-bottom: 6px;
+}
+#Social{
+    margin-left: 120px;
+}
+#Pay{
+    margin-left: 140px;
+}
+
+/* @media screen and (max-width: 700px) {
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-flex;
+        padding: 9px 3px;
+        color:#252525; ;
+    }
+    .flag img{
+       width: 22px;
+       height: 4vh;
+       margin-left: 84%;
+    }
+    .flag{
+    margin-top: -27px;
+    }
+    .logo img{
+        width: 110px;
+        margin-left: 27px;
+        height: 12vh;
+    }
+    .Intro{
+        display: flex;
+    }
+    .catalogue{
+        
+        margin-left:3px;
+        margin-top: 33px;
+    }
+    .search{
+        margin-left: 40px;
+        margin-top: 33px ;
+    }
+    #brickh{
+    font-size: 25px;
+    margin-top: 30px;
+    }
+    .icons{
+    margin-left: 480px;
+    margin-top: 35px;
+    }
+    .Intro{
+    background-color: #ffd600;
+    height: 12vh;
+    }
+    .star img{
+        width: 180px;
+        margin-left: 510px;
+        margin-top: px;
+        height: 133px;
+    }
+    .star{
+        background-color: #252525;
+        height: 20vh;
+        margin-top: -55px;
+        
+    }
+    .series{
+     margin-left: 20px;
+     border-style:solid;
+    width: 220px;
+    border-radius: 10px 10px;
+    border-color: whitesmoke;
+    height: 78vh;
+    
+    } 
+    .container{
+        width: 100%;
+    }
+    .Pictures1{
+        display: block;
+        margin-top: -450px;
+        margin-left:250px;
+    }
+    #d1,#d2,#d3{
+        width: 180px;
+    }
+    #d1 img{
+        margin-left: 50px;
+    }
+    #d2{
+        height: 20vh;
+        margin-left: 170px;
+        margin-top: 20px;
+    }
+    #d3{
+        margin-left: 180px;
+        margin-top:-20px ;
+        height: 29vh;
+    }
+    .words1{
+    /* display: flex; */
+    /* margin-left: 200px;
+    }
+    .dago{
+        margin-left:60px;
+        margin-top: -35px;
+    }
+    .at{
+        margin-left: 400px;
+        margin-top: -50px;
+    }
+    .bomb{
+        margin-left: 757px;
+        margin-top: -45px;
+    }
+    .stur1{
+        margin-left: 258px;
+        margin-top: 25px;
+        color: #ffd600;
+        font-size: 8px;
+    }
+    .stir1{
+        margin-left: 600px;
+        margin-top: -24px;
+        color: #ffd600;
+        font-size: 8px;
+    }
+    .steric1{
+        margin-left: 957px;
+        margin-top: -19px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .pictures2{
+    display: flex;
+    margin-top: 50px;
+    margin-left:250px;
+    }
+    #pic1,#pic2,#pic3{
+        width: 178px;
+        height: 25vh;
+    }
+    #pic1{
+       margin-left: 17px; 
+    }
+    #pic2{
+        margin-left: 150px;
+    }
+    #pic3{
+        margin-left:180px ;
+    }
+    .republic{
+        margin-left: 260px;
+    }
+    .A1{
+        margin-left: 630px;
+        margin-top: -35px;
+    }
+    .razor{
+        margin-left: 970px;
+        margin-top: -35px;
+    }
+    .stur2{
+        margin-left: 259px;
+        margin-top: -20px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .stir2{
+        margin-left: 630px;
+        margin-top: -8px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .steric2{
+        margin-left: 970px;
+        margin-top: -8px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    #e1,#e2,#e3{
+        width: 180px;
+        height: 28vh;
+    }
+    #e1{
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+    #e2{
+        margin-left: 180px;
+        margin-top: 30px;
+        height: 25vh;
+    }
+    #e3{
+        margin-left: 176px;
+        margin-top:-55px;
+        height: 22vh;
+    }
+    .manda{
+        margin-left: 248px;
+        margin-top: -12px;
+    }
+    .port{
+        margin-left: 615px;
+        margin-top: -20px;
+    }
+    .obi{
+        margin-left: 975px;
+        margin-top: -30px;
+    }
+    .stur3{
+        margin-left: 248px;
+        margin-top: -40px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .stir3{
+        margin-left: 613px;
+        margin-top: 6px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .steric3{
+        margin-left: 975px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    #m1,#m2,#m3{
+        width: 170px;
+        height: 27vh;
+    }
+    #m1{
+        margin-left: 250px;
+        margin-top: 8px;
+    }
+    #m2{
+        margin-left: 180px;
+    }
+    #m3{
+        margin-left: 195px;
+    }
+    .hoth{
+        margin-left: 250px;
+        margin-top: 3px;
+    }
+    .boba{
+        margin-left: 600px;
+        margin-top: -30px;
+    }
+    .ferr{
+        margin-left: 976px;
+        margin-top: -32px;
+    }
+    .stur4{
+        margin-left: 250px;
+        margin-top: -10px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .stir4{
+        margin-left: 599px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .steric4{
+        margin-left: 975px;
+        margin-top: -10px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    #c1,#c2,#c3{
+        width: 178px;
+        height: 28vh;
+    }
+    #c1{
+        margin-left: 250px;
+        margin-top: -15px;
+    }
+    #c2{
+        margin-left: 170px;
+        margin-top: -10px;
+    }
+    #c3{
+        margin-left: 190px;
+    }
+    .just{
+        margin-left: 250px;
+    }
+    .clone{
+    margin-left: 600px;
+    margin-top: -39px;
+    }
+    .fett{
+        margin-left: 978px;
+        margin-top: -32px;
+    }
+    .stur5{
+        margin-left: 248px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .stir5{
+        margin-left: 598px;
+        margin-top: -13px;
+        color: #ffd600;
+        font-size: 8px;
+    }
+    .steric5{
+        margin-left: 978px;
+        margin-top: -6px;
+        font-size: 8px;
+        color: #ffd600;
+    }
+    .nav1{
+        margin-left: 540px;
+    }
+    #bt1,#bt2,#bt3,#bt4,#bt5,#bt6{
+      background-color: white; 
+      color: #252525; 
+      border-radius: 30px 30px;
+      padding: 10px 18px;
+      justify-content: space-around;
+      border-color: white;
+    }
+    #bt1{
+        background-color: #ffd600;
+    }
+    #dots{
+        color: #ffd600;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        background-color: #26004c;
+        padding: 40px 40px;
+        height: 30vh;
+    }
+    #Company{
+        font-size: 16px;
+    }
+    #Help{
+        margin-left:120px;
+        font-size: 16px;
+    }
+    #Contacts{
+        margin-left: 100px;
+        font-size: 16px;
+    }
+    #Works{
+        margin-top:90px;
+        margin-left: -160px;
+        margin-bottom: 6px;
+    }
+    #Social{
+        margin-left: 120px;
+    }
+    #Pay{
+        margin-left: 10px;
+    } */
