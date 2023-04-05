@@ -1,50 +1,13 @@
-@media (max-width: 530px) {
-    body {
-      background-color:aqua;
-    }
-  }
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
-#nav{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 270px;
-}
-nav ul li{
-    list-style: none;
-    display: inline-flex;
-    padding: 9px 35px;
-    color: black;
-}
-.logo img{
-    width: 90px;
-    margin-left: 200px;
-}
 
-#brickh{
-    margin-left: 300px;
-    margin-top: -50px;
-}
-#head{
-    margin-left: 430px;
-    margin-top: -28px;
-}
-#search{
-    text-align: center;
-}
-.iconsearch{
-    
-}
-.catalogue{
-    
-    margin-left:48px;
-    margin-top: 33px;
-}
+*{padding: 0px;margin: 0px;box-sizing: border-box;font-family: 'Times New Roman', Times, serif;}
+#nav{display: flex;justify-content: space-between;margin-top: 10px;margin-left: 270px;}
+nav ul li{list-style: none;display: inline-flex;padding: 9px 35px;color: black;}
+.logo img{width: 90px;margin-left: 200px;}
+#brickh{margin-left: 300px;margin-top: -50px;}
+#head{ margin-left: 430px; margin-top: -28px;}
+#search{text-align: center;}
+.iconsearch{}
+.catalogue{margin-left:48px;margin-top: 33px;}
 #icons{
     margin-left: 800px;
     margin-top: -16px;
@@ -139,10 +102,6 @@ nav ul li{
     height: 30vh;
 
 }
-
-
-
-
 #NEW{
     margin-left: 570px;
     font-size: 25px;

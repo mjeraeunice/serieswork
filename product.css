@@ -1,247 +1,73 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family:"acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif ;
+padding: 0px;margin: 0px;box-sizing: border-box; font-family:"acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif ;
 }
 .nav{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 270px;
-}
+display: flex; justify-content: space-between; margin-top: 10px; margin-left: 270px;}
 nav ul li{
-    list-style: none;
-    display: inline-flex;
-    padding: 9px 35px;
-    color:#252525;
-}
+list-style: none; display: inline-flex;padding: 9px 35px;color:#252525;}
 .flag img{
-    width: 30px;
-    height: 4vh;
-    margin-left: 84%;
- }
- .flag{
- margin-top: -27px;
- }
- .logo img{
-     width: 110px;
-     margin-left: 27px;
-     height: 12vh;
- }
- .Intro{
-     display: flex;
- }
- .catalogue{
-     margin-left:48px;
-     margin-top: 33px;
- }
- .search{
-     margin-left: 40px;
-     margin-top: 33px ;
- }
- #brickh{
- font-size: 25px;
- margin-top: 30px;
- color: #252525;
- }
- .icons{
- margin-left: 480px;
- margin-top: 35px;
- }
- .Intro{
- background-color: #ffd600;
- height: 12vh;
- }
- .pooh{
-    margin-top: -15px;
- }
- #house,#lego,#angle,#angle2{
-    color: lightgray;
- }
+width: 30px;height: 4vh;margin-left: 84%;}
+ .flag{margin-top: -27px;}
+ .logo img{width: 110px;margin-left: 27px;height: 12vh;}
+ .Intro{display: flex;}
+ .catalogue{margin-left:48px;margin-top: 33px;}
+ .search{margin-left: 40px;margin-top: 33px ;}
+ #brickh{font-size: 25px;margin-top: 30px;color: #252525;}
+ .icons{margin-left: 480px;margin-top: 35px;}
+ .Intro{background-color: #ffd600;height: 12vh;}
+ .pooh{margin-top: -15px;}
+ #house,#lego,#angle,#angle2{color: lightgray;}
  #but1{
-    margin-top: 60px;
-    margin-left: 65px;
-    color: white;
-    background-color: #E70062;
-    border-radius: 39px 39px;
-    padding: 5px 8px;
-    border-color: #E70062;
- }
+margin-top: 60px; margin-left: 65px;color: white;background-color: #E70062;border-radius: 39px 39px;padding: 5px 8px;border-color: #E70062;}
  .pic1 img{
-    width: 400px;
-    height: 65vh;
-    margin-left: 85px;
-    margin-top: -px;
- }
+width: 400px;height: 65vh;margin-left: 85px;margin-top: -px;}
  .side{
-    margin-left: 650px;
-    margin-top: -400px;
- }
+margin-left: 650px;margin-top: -400px;}
 .nyota{
-    color:#ffd600;
-    font-size: 15px;
-    margin-left: 35px;
-    margin-top: -18px;
-
-}
+color:#ffd600;font-size: 15px;margin-left: 35px;margin-top: -18px;}
 #h5{
-    color: green;
-}
+color: green;}
 #on{
-    padding: 9px 35px;
-    color: white;
-    background-color: #ffd600;
-    border-color: white;
+padding: 9px 35px;color: white;background-color: #ffd600; border-color: white;
 }
-#minus,#plus{
-    color: #ffd600;
-}
-.smalls{
-    display: flex;
-}
+#minus,#plus{color: #ffd600;}
+.smalls{display: flex;}
 #s1,#s2,#s3,#s4,#s5,#s6{
-    width: 80px;
-    justify-content: space-between;
-    height: 7vh;
-    margin-left: 25px;
+width: 80px;justify-content: space-between;height: 7vh;margin-left: 25px;
 }
 #left{
-    font-size: 28px;
-    margin-left:5px ;
-    border: solid;
-    padding: 2px 15px;
-    border-radius: 25px 25px;
-}
+font-size: 28px;margin-left:5px ;border: solid;padding: 2px 15px;border-radius: 25px 25px;}
 #right{
-    font-size: 28px;
-    margin-left: 17px;
-    padding: 2px 15px;
-    border-radius: 25px 25px;
-    border: solid;
-    text-align: center;
-    color: #ffd600;
-}
-#about{
-    background-color: #ffd600;
-    margin-left: 350px;
-    padding: 10px 40px;
-}
-#review{
-    color: lightgray;
-    margin-left: 40px;
-    padding: 10px 40px;
-}
-#vid{
-    color: lightgray;
-    margin-left: 50px;
-    padding: 10px 40px;
-}
-#line{
-display: block;
-margin-top: 0.1em;
-margin-bottom: 1.2em;
-margin-left: auto;
-margin-right: auto;
-border-style: inset;
-border-width: 3px;
-border-color:whitesmoke;
-}
-#text{
-    margin-left: 290px;
-    font-size: 17px;
-}
-#funct{
-    text-align: center;
-}
-#j1,#j2,#j3{
-    width: 280px;
-    border: solid;
-    border-color: #ffd600;
-    border-radius: 15px 17px;
-    padding: 20px px;
-    height: 30vh;
-}
-#j1{
-    margin-left: 345px;
-
-}
+font-size: 28px;margin-left: 17px;padding: 2px 15px;border-radius: 25px 25px; border: solid;text-align: center;color: #ffd600;}
+#about{background-color: #ffd600;margin-left: 350px; padding: 10px 40px;}
+#review{color: lightgray; margin-left: 40px;padding: 10px 40px;}
+#vid{color: lightgray;margin-left: 50px;padding: 10px 40px;}
+#line{display: block;margin-top: 0.1em;margin-bottom: 1.2em;margin-left: auto;
+margin-right: auto;border-style: inset;border-width: 3px;border-color:whitesmoke;}
+#text{margin-left: 290px;font-size: 17px;}
+#funct{text-align: center;}
+#j1,#j2,#j3{width: 280px;border: solid;border-color: #ffd600;border-radius: 15px 17px;padding: 20px px;height: 30vh;}
+#j1{margin-left: 345px;}
 #j3{
-    margin-left: 510px;
-    margin-top: 8px;
-    height: 30vh;
-}
-#j2{
-margin-left: 12px;
-}
-#int{
-    text-align: center;
-}
-#f1,#f2,#f3,#f4{
-    width: 200px;
-    height: 22vh;
-    display: inline-flex;
-}
-#f1{
-    margin-left: 55px;
-}
-#f2{
-    margin-left: 100px;
-}
-#f3{
-    margin-left: 95px;
-}
-#f4{
-    margin-left: 150px;
-}
-#h1{
-    margin-left: 280px;
-}
-#h2{
-    margin-left: 280px;
-}
-#h3{
-    margin-left: 300px;
-}
-#h4{
-   margin-left: 300px;
-}
-.words{
-    display: flex;
-    margin-left: 50px;
-    justify-content: space-between;
-}
-#p3{
-    margin-right: 140px;
-}
-#p4{
-    margin-right: 59px;
-}
-.footer{
-    display: flex;
-    background-color: #26004c;
-    padding: 40px 40px;
-    height: 30vh;
-}
-#Company{
-    font-size: 16px;
-}
-#Help{
-    margin-left:120px;
-    font-size: 16px;
-}
-#Contacts{
-    margin-left: 100px;
-    font-size: 16px;
-}
-#Works{
-    margin-top:90px;
-    margin-left: -170px;
-    margin-bottom: 6px;
-}
-#Social{
-    margin-left: 120px;
-}
-#Pay{
-    margin-left: 140px;
-}
+margin-left: 510px;margin-top: 8px;height: 30vh;}
+#j2{margin-left: 12px;}
+#int{text-align: center;}
+#f1,#f2,#f3,#f4{ width: 200px;height: 22vh;display: inline-flex;}
+#f1{margin-left: 55px;}
+#f2{margin-left: 100px;}
+#f3{margin-left: 95px;}
+#f4{margin-left: 150px;}
+#h1{ margin-left: 280px;}
+#h2{margin-left: 280px;}
+#h3{margin-left: 300px;}
+#h4{margin-left: 300px;}
+.words{display: flex; margin-left: 50px;justify-content: space-between;}
+#p3{margin-right: 140px;}
+#p4{margin-right: 59px;}
+.footer{display: flex;background-color: #26004c;padding: 40px 40px;height: 30vh;}
+#Company{font-size: 16px;}
+#Help{margin-left:120px;font-size: 16px;}
+#Contacts{margin-left: 100px;font-size: 16px;}
+#Works{margin-top:90px;margin-left: -170px;margin-bottom: 6px;}
+#Social{margin-left: 120px;}
+#Pay{margin-left: 140px;}
