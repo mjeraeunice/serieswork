@@ -1,30 +1,33 @@
 *{
     padding: 0px;margin: 0px;box-sizing: border-box; font-family:"acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif ;
     }
+    .productpage{width: 100%;}
     .nav{
     display: flex; justify-content: space-between; margin-top: 10px; margin-left: 270px;}
     nav ul li{
     list-style: none; display: inline-flex;padding: 9px 35px;color:#252525;}
     .flag img{
-    width: 30px;height: 4vh;margin-left: 84%;}
-     .flag{margin-top: -27px;}
+    width: 22px;height: 3vh;margin-left: 84%;}
+     .flag{margin-top: -2px;}
      .logo img{width: 100px;margin-left: 27px;height: 12vh;}
-     .Intro{display: flex;}
+     .Introd{display: flex;}
      .catalogue{margin-left:48px;margin-top: 33px;}
      .search{margin-left: 40px;margin-top: 33px ;}
      #brickh{font-size: 25px;margin-top: 30px;color: #252525;}
      .icons{margin-left: 480px;margin-top: 35px;}
-     .Intro{background-color: #ffd600;height: 12vh;}
+     .Introd{background-color: #ffd600;height: 12vh;}
      #your{margin-top: 20px; margin-left: 50px;}
      #prod2{display: grid; gap: 4%;grid-template-columns: 1%;}
      #w1,#w2,#w3{width: 170px;margin-left: 45px;margin-top: 12px;}
      #lego{margin-left: 260px; margin-top: -430px;}
-     #p2{margin-top: 150px;}
-     #p3{margin-top: 120px;}
+     #t2{margin-top: 150px;}
+     #t3{margin-top: 120px;}
      #minus,#minus{color:whitesmoke;background-color: lightgray;}
      #minus2{color: whitesmoke;background-color: lightgray;}
      #plus{color:whitesmoke;background-color: #ffd600;}
      #prices{margin-left: 650px;margin-top:-430px ;}
+     #p2{margin-top: 145px;}
+     #p3{margin-top: 120px;}
      #n1,#n2,#n3{color: lightgray;}
      .footer{display: flex;background-color: #26004c;padding: 40px 40px;height: 30vh;}
      #Company{font-size: 16px;}
@@ -33,7 +36,7 @@
      #Works{margin-top:90px;margin-left: -170px;margin-bottom: 6px;}
      #Social{margin-left: 120px;}
      #Pay{margin-left: 140px;}
-     #script{margin-left: 868px;margin-top: -435px; border: solid;border-radius:30px 30px;padding: 20px 20px;width: 250px;height: 33vh;}
+     #script{margin-left: 868px;margin-top: -428px; border: solid;border-radius:30px 30px;padding: 20px 20px;width: 250px;height: 33vh;}
      #find{margin-left: 150px;margin-top:-5%;}
      #amount{margin-left: 110px;margin-top: -18px;}
      #order{padding: 4px 55px;background-color: #ffd600;color: white;}
@@ -50,11 +53,40 @@
     .words{display: flex; margin-left: 50px;justify-content: space-between;}
      #v3{margin-right: 100px;margin-top:px;}
      #v4{margin-right:82px;} 
-     #int{margin-top: 290px;text-align: center;}
-     
+     #int{margin-top: 290px;text-align: center;
+    
+     }
 
-    @media screen and(max-width:924px){
-        #f1,#f2,#f3,#f4{ width: 200px;height: 22vh;display:grid;margin-top: 8px;}
-        #prod2{display:grid; gap: 3%;grid-template-columns: 2%;}
-        #f1{margin-left:px;}#f2{margin-left: 100px;}#f3{margin-left: 95px;}#f4{margin-left: 150px;}
-     } 
+     @media screen and (max-width:1024px){
+.nav{margin-left:-9%;}
+.flag{margin-right: 100px;}
+.logo img{margin-left: 10px;width: 60px;height: 12vh;}
+#brickh{font-size: 20px;}
+.introd{background-color: #ffd600;height:4vh;}
+.catalogue{margin-left: 10px;}
+.search{margin-left: 5px;width: 0px;padding: 2px;}
+#w1,#w2,#w3{width: 150px;margin-left: 5px;}
+#lego{margin-left: 160px;margin-top: -395px;font-size: 11px;}
+#t2{margin-top: 135px;}
+#t3{margin-top: 120px;display: block;}
+#your{margin-left: 109px;}
+#prices{margin-left: 290px;margin-top:-365px; font-size: 12px;}
+#p2{margin-top: 129px;}
+#p3{margin-top: 140px;}
+#script{margin-left: 45px;margin-top: 88px;}
+#int{margin-top: 10px;text-align:center;}
+.pics1{margin-left: -35px;}
+#f1,#f2,#f3,#f4{width: 150px;height: 20vh;display: grid;}
+#f2,#f3,#f4{margin-left: 55px;}
+#f2{margin-top: 50px;}
+#f3{margin-top: 55px;}
+#f4{margin-top: 60px;}
+.words{display: grid;margin-top:-540px;margin-left: 180px;}
+#v2{margin-top: 140px;margin-left: -170px;}
+
+}
+
+
+
+     
+     
